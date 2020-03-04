@@ -1,0 +1,5 @@
+cluster.name: my_cluster
+node.name: elasticsearch
+network.host: _site_
+#discovery.seed_hosts: ["elasticsearch"]
+cluster.initial_master_nodes: ["elasticsearch"]

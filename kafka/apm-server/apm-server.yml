@@ -1,0 +1,12 @@
+apm-server.frontend.enabled: true
+apm-server.host: "0.0.0.0:8200"
+	
+enable_log_correlation: true
+
+output.elasticsearch:
+  hosts: ['elasticsearch:9200']
+  protocol: "http"
+
+setup.kibana:
+  host: "http://kibana:5601"
+  protocol: "http"
